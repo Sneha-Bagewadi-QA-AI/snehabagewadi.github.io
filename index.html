@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sneha Bagewadi · GenAI QA Lead · SDET</title>
+<meta name="description" content="Senior QA Engineer with 8+ years testing web, API, mobile, conversational AI and Generative AI systems. Open to GenAI QA Lead, AI Test Engineer and Senior SDET roles.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0e1b2b;
+  --navy-2:#142338;
+  --navy-line:#243349;
+  --teal:#5ecec6;
+  --teal-dark:#1d7a76;
+  --bg:#f5f5f3;
+  --card:#ffffff;
+  --ink:#10202f;
+  --muted:#5b6674;
+  --line:#e4e6e8;
+  --mint:#e5eeec;
+  --on-navy:#e8edf2;
+  --on-navy-muted:#b4c0cd;
+  --display:"Sora","Segoe UI",system-ui,sans-serif;
+  --body:"IBM Plex Sans","Segoe UI",system-ui,-apple-system,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{font-family:var(--body);background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--teal);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.label{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--teal-dark)}
+h1,h2,h3{font-family:var(--display);line-height:1.15;letter-spacing:-.01em}
+h2{font-size:clamp(26px,3.4vw,34px);font-weight:600;margin-top:12px;max-width:640px}
+
+/* Nav */
+header.nav{position:sticky;top:0;z-index:20;background:var(--navy);border-bottom:1px solid var(--navy-line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:56px}
+.brand{font-family:var(--display);font-weight:600;color:#fff;font-size:15px}
+.nav ul{display:flex;align-items:center;gap:28px;list-style:none}
+.nav a.link{color:var(--on-navy-muted);font-size:13px}
+.nav a.link:hover{color:#fff}
+.btn{display:inline-block;font-size:13px;font-weight:600;padding:10px 18px;border-radius:6px;border:1px solid transparent;transition:background .15s,border-color .15s}
+.btn-primary{background:var(--teal);color:var(--navy)}
+.btn-primary:hover{background:#7adad3}
+.btn-ghost{color:#fff;border-color:var(--navy-line);background:transparent}
+.btn-ghost:hover{border-color:var(--teal)}
+.nav .btn{padding:8px 16px}
+
+/* Hero */
+.hero{background:var(--navy);color:#fff;padding:72px 0 80px}
+.hero .wrap{display:grid;grid-template-columns:1.1fr 1fr;gap:48px;align-items:end}
+.hero .label{color:var(--teal)}
+.hero h1{font-size:clamp(38px,5.4vw,56px);font-weight:700;margin:20px 0 22px;max-width:470px}
+.hero p.lead{color:var(--on-navy-muted);font-size:16px;max-width:520px}
+.cta{display:flex;gap:12px;margin-top:28px;flex-wrap:wrap}
+.stats{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--navy-line);background:var(--navy-2);border-radius:10px;overflow:hidden}
+.stat{padding:26px 24px;border-right:1px solid var(--navy-line);border-bottom:1px solid var(--navy-line)}
+.stat:nth-child(2n){border-right:0}
+.stat:nth-child(n+3){border-bottom:0}
+.stat b{display:block;font-family:var(--display);font-size:34px;font-weight:600;color:var(--teal);line-height:1.1}
+.stat span{display:block;margin-top:8px;font-size:13px;color:var(--on-navy-muted)}
+
+/* Sections */
+section{padding:80px 0}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:40px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:22px 22px 20px}
+.card .num{font-family:var(--mono);font-size:12px;color:var(--teal-dark)}
+.card h3{font-size:18px;font-weight:600;margin:12px 0 10px}
+.card p{font-size:14px;color:var(--muted)}
+.card .tools{font-family:var(--mono);font-size:12px;color:var(--ink);margin-top:14px;line-height:1.6}
+
+/* Featured */
+#work{padding-top:24px}
+#work .intro{max-width:620px;color:var(--muted);font-size:15px;margin-top:14px}
+.process{background:var(--navy);color:#fff;border-radius:12px;padding:32px 28px 36px;margin-top:36px}
+.process .label{color:var(--teal)}
+.steps{display:grid;grid-template-columns:repeat(6,1fr);gap:16px;margin-top:22px;list-style:none}
+.steps li{border-top:2px solid var(--teal);padding-top:14px}
+.steps .n{font-family:var(--mono);font-size:12px;color:var(--teal)}
+.steps h3{font-size:15px;font-weight:600;margin:8px 0 8px}
+.steps p{font-size:13px;color:var(--on-navy-muted)}
+.features{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:16px}
+.feature{background:var(--mint);border-radius:10px;padding:20px}
+.feature h3{font-size:16px;font-weight:600;margin-bottom:8px}
+.feature p{font-size:13px;color:var(--muted)}
+
+/* Experience */
+.jobs{margin-top:32px;border-top:1px solid var(--line)}
+.job{display:grid;grid-template-columns:260px 1fr;gap:32px;padding:30px 0;border-bottom:1px solid var(--line)}
+.job .when{font-family:var(--mono);font-size:12px;color:var(--teal-dark)}
+.job h3{font-size:21px;font-weight:600;margin:6px 0 4px}
+.job .role{font-size:14px;color:var(--muted)}
+.proj+.proj{margin-top:20px}
+.proj h4{font-size:14px;font-weight:600}
+.proj p{font-size:14px;color:var(--muted);margin-top:4px}
+
+/* Recognition / Education */
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.two .card{padding:24px}
+.two .label{color:var(--teal-dark)}
+.awards{list-style:none;margin-top:14px}
+.awards li{display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-bottom:1px solid var(--line);font-size:14px}
+.awards li b{font-weight:600}
+.awards li span{color:var(--muted);text-align:right}
+.note{font-size:14px;color:var(--muted);margin-top:16px}
+.edu h3{font-size:20px;font-weight:600;margin:14px 0 10px}
+.edu p{font-size:14px;color:var(--muted)}
+
+/* Contact */
+.contact{background:var(--navy);color:#fff;padding:72px 0}
+.contact .wrap{display:flex;justify-content:space-between;align-items:center;gap:40px;flex-wrap:wrap}
+.contact .label{color:var(--teal)}
+.contact h2{color:#fff;font-size:clamp(28px,4vw,40px);font-weight:700;max-width:520px}
+.contact p{color:var(--on-navy-muted);font-size:15px;margin-top:14px}
+.contact .links{display:flex;flex-direction:column;gap:12px;min-width:270px}
+.contact .btn{text-align:center;padding:12px 20px}
+
+/* Responsive */
+@media (max-width:1000px){
+  .steps{grid-template-columns:repeat(3,1fr)}
+  .features{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:860px){
+  .hero .wrap{grid-template-columns:1fr}
+  .grid-3{grid-template-columns:1fr 1fr}
+  .job{grid-template-columns:1fr;gap:16px}
+  .two{grid-template-columns:1fr}
+}
+@media (max-width:620px){
+  .nav ul li:not(:last-child){display:none}
+  .grid-3,.steps,.features{grid-template-columns:1fr}
+  .hero{padding:48px 0 56px}
+  section{padding:56px 0}
+  .contact .links{width:100%}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a href="#top" class="brand">Sneha Bagewadi</a>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a class="link" href="#expertise">Expertise</a></li>
+        <li><a class="link" href="#work">Featured work</a></li>
+        <li><a class="link" href="#experience">Experience</a></li>
+        <li><a class="btn btn-primary" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap">
+      <div>
+        <p class="label">GenAI QA Lead · SDET · Bengaluru</p>
+        <h1>I make sure AI products say the right thing, every release.</h1>
+        <p class="lead">Senior QA Engineer with 8+ years testing web, API, mobile, conversational AI and Generative AI systems for Microsoft, LivePerson and Uber. I own the full QA lifecycle, from requirements and test strategy to evaluation frameworks and QA sign-off.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="mailto:snehabagewadi2017@gmail.com">Email me</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/sneha-bagewadi" target="_blank" rel="noopener">LinkedIn profile</a>
+        </div>
+      </div>
+      <div class="stats">
+        <div class="stat"><b>8+</b><span>years in QA and IT</span></div>
+        <div class="stat"><b>80%</b><span>chatbot regression automated</span></div>
+        <div class="stat"><b>3</b><span>ERP systems covered by GenAI testing</span></div>
+        <div class="stat"><b>0</b><span>production defects on delivered projects</span></div>
+      </div>
+    </div>
+  </div>
+
+  <section id="expertise">
+    <div class="wrap">
+      <p class="label">01 — Expertise</p>
+      <h2>Quality for systems that don't give the same answer twice.</h2>
+      <div class="grid-3">
+        <article class="card">
+          <span class="num">/01</span>
+          <h3>LLM evaluation</h3>
+          <p>Evaluation frameworks that score AI output on faithfulness, groundedness, relevance, coherence and hallucination against golden datasets.</p>
+          <p class="tools">DeepEval · Azure AI Foundry · LLM-as-a-judge</p>
+        </article>
+        <article class="card">
+          <span class="num">/02</span>
+          <h3>RAG and agentic AI</h3>
+          <p>Checking that retrieval pulls the right context and that agents reason in the right steps and take the right actions.</p>
+          <p class="tools">Azure OpenAI · RAG pipelines · Agent workflows</p>
+        </article>
+        <article class="card">
+          <span class="num">/03</span>
+          <h3>Test automation</h3>
+          <p>Maintainable UI and API automation frameworks with Page Object Model, wired into CI for daily regression.</p>
+          <p class="tools">Playwright (JS/TS) · Cypress · Allure · Jenkins</p>
+        </article>
+        <article class="card">
+          <span class="num">/04</span>
+          <h3>API and performance</h3>
+          <p>Backend validation, REST integrations and data integrity, plus load testing of AI and API endpoints.</p>
+          <p class="tools">Postman · REST Assured · APIRequestContext · JMeter</p>
+        </article>
+        <article class="card">
+          <span class="num">/05</span>
+          <h3>Conversational AI</h3>
+          <p>Intent, entity, fallback and multi-turn testing for production chatbots and the platforms that train them.</p>
+          <p class="tools">Botium · NLU validation · Web and mobile SDK</p>
+        </article>
+        <article class="card">
+          <span class="num">/06</span>
+          <h3>AI-assisted QA</h3>
+          <p>Using AI assistants to speed up test design, scripting and test data, while keeping a human eye where judgment matters.</p>
+          <p class="tools">Claude · ChatGPT · GitHub Copilot · Cursor</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="wrap">
+      <p class="label">02 — Featured work</p>
+      <h2>FieldConnect: GenAI for field service, across three ERPs</h2>
+      <p class="intro">An Azure OpenAI platform for field technicians: voice-to-text notes, AI note polishing, service report summaries and historical insights, integrated with Vista, Spectrum and Sage. As QA Lead at Sonata Software, I owned quality from the first requirement to the final sign-off.</p>
+
+      <div class="process">
+        <p class="label">How I ran QA, end to end</p>
+        <ol class="steps">
+          <li><span class="n">01</span><h3>Requirements</h3><p>Gathered and analyzed requirements with Spec Driven Development.</p></li>
+          <li><span class="n">02</span><h3>Test strategy</h3><p>Defined the test strategy and test plan for every GenAI feature.</p></li>
+          <li><span class="n">03</span><h3>Eval framework</h3><p>Designed the LLM evaluation framework with DeepEval and Azure AI Foundry.</p></li>
+          <li><span class="n">04</span><h3>Test design</h3><p>Built scenarios and test cases that fed into user stories.</p></li>
+          <li><span class="n">05</span><h3>Execution</h3><p>Playwright UI and API automation, RAG checks and JMeter load tests.</p></li>
+          <li><span class="n">06</span><h3>Sign-off</h3><p>Test completion reports and QA sign-off for every release.</p></li>
+        </ol>
+      </div>
+
+      <div class="features">
+        <div class="feature"><h3>Voice-to-text</h3><p>Transcription accuracy for technicians dictating notes in the field.</p></div>
+        <div class="feature"><h3>Note polishing</h3><p>Grammar and tone improved while the original meaning is preserved.</p></div>
+        <div class="feature"><h3>Report summaries</h3><p>Service report summaries checked for completeness and accuracy.</p></div>
+        <div class="feature"><h3>Historical insights</h3><p>RAG answers grounded in the right ERP history, without hallucination.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="wrap">
+      <p class="label">03 — Experience</p>
+      <h2>8+ years, from mobility apps to GenAI</h2>
+
+      <div class="jobs">
+        <div class="job">
+          <div>
+            <p class="when">May 2025 – Present</p>
+            <h3>Sonata Software</h3>
+            <p class="role">Software Development Engineer in Test · QA Lead</p>
+          </div>
+          <div>
+            <div class="proj">
+              <h4>FieldConnect · GenAI field service platform</h4>
+              <p>Led QA from inception to sign-off, built the LLM evaluation framework, and tested RAG pipelines, agentic workflows and voice, polish, summary and history features across three ERPs.</p>
+            </div>
+            <div class="proj">
+              <h4>Elevance Health chatbot · Client: Microsoft</h4>
+              <p>Owned QA from KT to delivery for a healthcare chatbot; raised automation coverage by 35% with Playwright and added Botium intent and fallback testing.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="job">
+          <div>
+            <p class="when">Aug 2021 – Apr 2025</p>
+            <h3>Digit88 Technologies</h3>
+            <p class="role">Software Development Test Engineer</p>
+          </div>
+          <div>
+            <div class="proj">
+              <h4>Multi-domain chatbots · Client: LivePerson</h4>
+              <p>Tested production chatbots for banking, retail, networking and utilities; automated about 80% of UI regression with Playwright and Cypress, keeping 20% manual where human judgment matters.</p>
+            </div>
+            <div class="proj">
+              <h4>Conversational AI platform · LLM and training layer</h4>
+              <p>Validated intent and entity training, messaging configuration and LLM prompt behavior for the platform itself.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="job">
+          <div>
+            <p class="when">Apr 2018 – Aug 2021</p>
+            <h3>Accenture</h3>
+            <p class="role">QA Engineer</p>
+          </div>
+          <div>
+            <div class="proj">
+              <h4>Uber Rider, Driver, Eats and Maps · Client: Uber</h4>
+              <p>Functional, regression and system integration testing across mobile and web, with API testing in Postman.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap two">
+      <div class="card">
+        <p class="label">Recognition</p>
+        <ul class="awards">
+          <li><b>DNA Award</b><span>Sonata Software</span></li>
+          <li><b>Spotlight Award</b><span>Digit88 Technologies</span></li>
+          <li><b>Top Performer · Star of Business</b><span>Accenture</span></li>
+        </ul>
+        <p class="note">Zero production defects across delivered projects, through disciplined regression planning.</p>
+      </div>
+      <div class="card edu">
+        <p class="label">Education</p>
+        <h3>Bachelor of Engineering, Electronics and Communication</h3>
+        <p>Visvesvaraya Technological University, Belagavi · 2017</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="contact" class="contact">
+  <div class="wrap">
+    <div>
+      <p class="label">04 — Contact</p>
+      <h2>Building something with GenAI? Let's make sure it holds up.</h2>
+      <p>Open to GenAI QA Lead, AI Test Engineer and Senior SDET roles.</p>
+    </div>
+    <div class="links">
+      <a class="btn btn-primary" href="mailto:snehabagewadi2017@gmail.com">snehabagewadi2017@gmail.com</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/sneha-bagewadi" target="_blank" rel="noopener">linkedin.com/in/sneha-bagewadi</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
